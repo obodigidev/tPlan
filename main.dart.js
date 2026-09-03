@@ -98690,7 +98690,7 @@ $0(){this.a.ay.scG(A.dE("yyyy-MM-dd").c5(this.b))},
 $S:0}
 A.ay2.prototype={
 $1(a){var s=null,r=this.a,q=t.p,p=A.ab(A.b([B.a2P,B.x,A.dM(s,B.aA,!1,s,!0,B.v,s,A.dT(),r,s,s,s,s,s,2,B.Ni,B.D,!0,s,!0,s,!1,s,B.ax,s,s,s,s,s,s,s,s,3,s,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,B.aF,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.a4,s,B.aJ,s,s,s,s)],q),B.j,s,B.i,B.ac)
-return A.lM(A.b([A.dL(B.d0,new A.ay0(a),s),A.dv(B.a3E,new A.ay1(r,a),A.c5(s,s,B.a8,s,s,s,s,s,s,B.h,s,s,s,s,s,s,s,s,s,s))],q),p,B.a2H)},
+return A.lM(A.b([A.dL(B.d0,new A.ay0(a),s),A.dv(B.a3F,new A.ay1(r,a),A.c5(s,s,B.a8,s,s,s,s,s,s,B.h,s,s,s,s,s,s,s,s,s,s))],q),p,B.a2H)},
 $S:94}
 A.ay0.prototype={
 $0(){return A.c3(this.a,!1).de(!1)},
@@ -98830,7 +98830,7 @@ q.toString
 q=r.c5(q)
 r=q}else r="Select end date"
 q=t.p
-r=A.ab(A.b([s,A.CG(!1,n,n,n,!0,n,n,!0,n,B.MH,n,n,n,n,new A.at8(o),!1,n,n,n,A.M(r,n,n,n,n,n,n,n,n),n,B.a3G,n,n,n)],q),B.j,n,B.i,B.ac)
+r=A.ab(A.b([s,A.CG(!1,n,n,n,!0,n,n,!0,n,B.MH,n,n,n,n,new A.at8(o),!1,n,n,n,A.M(r,n,n,n,n,n,n,n,n),n,B.a3H,n,n,n)],q),B.j,n,B.i,B.ac)
 s=A.dL(B.d0,new A.at9(a),n)
 p=o.d!=null&&o.e!=null?new A.ata(o,a):n
 return A.lM(A.b([s,A.dv(B.a3h,p,A.c5(n,n,B.o,n,n,n,n,n,n,B.h,n,n,n,n,n,n,n,n,n,n))],q),r,B.a3v)},
@@ -99199,7 +99199,7 @@ B.b.N(q,p)}k=j.y
 if(k!=null)B.b.N(q,A.b([B.bL,o.A9("Started On",o.AD(k),B.f5)],m))
 k=j.z
 if(k!=null)B.b.N(q,A.b([B.bL,o.A9("Ended On",o.AD(k),B.M5)],m))
-B.b.N(l,A.b([A.am(n,A.ab(q,B.G,n,B.i,B.f),B.l,n,n,new A.aw(h,n,r,s,n,n,B.u),n,n,n,B.by,n,n,n),B.x],m))}l.push(A.aj(A.b([A.az(B.cg,B.o,n,18),B.aO,B.a3I],m),B.j,B.i,B.f,0))
+B.b.N(l,A.b([A.am(n,A.ab(q,B.G,n,B.i,B.f),B.l,n,n,new A.aw(h,n,r,s,n,n,B.u),n,n,n,B.by,n,n,n),B.x],m))}l.push(A.aj(A.b([A.az(B.cg,B.o,n,18),B.aO,B.a3J],m),B.j,B.i,B.f,0))
 l.push(B.aL)
 m=A.Q(a).Dc(A.Q(a).ax.M_(B.o))
 k=o.U4()
@@ -99453,7 +99453,7 @@ g=t.p
 r=A.b([],g)
 q=a.b
 p=q.length
-if(p!==0)B.b.N(r,A.b([B.My,B.bs,A.M("Sub: "+p,o,o,o,o,B.DS,o,o,o),B.XL],g))
+if(p!==0)B.b.N(r,A.b([B.My,B.bs,A.M("Sides: "+p,o,o,o,o,B.DS,o,o,o),B.XL],g))
 r.push(B.MM)
 r.push(B.bs)
 r.push(A.M("Moulds: "+a.gaDF(),o,o,o,o,B.DS,o,o,o))
@@ -99461,14 +99461,14 @@ s=A.ad(A.ab(A.b([s,B.bL,A.aj(r,B.j,B.i,B.f,0)],g),B.G,o,B.Y,B.f),1)
 r=A.c5(o,o,B.o,o,o,o,0,o,o,B.h,o,o,B.lT,o,new A.bF(A.W(10),B.r),o,o,o,o,o)
 q=q.length!==0
 p=A.az(q?B.Mf:B.Mg,o,o,16)
-return A.am(o,A.eS(!1,B.N,!0,j,A.eP(!1,i,!0,new A.aV(B.Q,A.aj(A.b([l,B.Db,s,A.fn(p,A.M(q?"Sub-Categories":"Select",o,o,o,o,B.DQ,o,o,o),new A.aqg(this,a),r)],g),B.j,B.i,B.f,0),o),o,!0,o,o,o,h,o,o,o,o,o,new A.aqh(this,a),o,o,o,o,o,o,o),B.l,B.z,0,o,o,o,o,o,B.cj),B.l,o,o,new A.aw(B.h,o,m,n,k,o,B.u),o,o,B.qA,o,o,o,o)},
+return A.am(o,A.eS(!1,B.N,!0,j,A.eP(!1,i,!0,new A.aV(B.Q,A.aj(A.b([l,B.Db,s,A.fn(p,A.M(q?"View Mould Status":"Select",o,o,o,o,B.DQ,o,o,o),new A.aqg(this,a),r)],g),B.j,B.i,B.f,0),o),o,!0,o,o,o,h,o,o,o,o,o,new A.aqh(this,a),o,o,o,o,o,o,o),B.l,B.z,0,o,o,o,o,o,B.cj),B.l,o,o,new A.aw(B.h,o,m,n,k,o,B.u),o,o,B.qA,o,o,o,o)},
 acj(a){var s,r,q=this,p=null,o=a.b,n=A.a_(o).i("al<1>"),m=A.V(new A.al(o,new A.aq8(q),n),n.i("E.E"))
 o=q.d
 n=a.a
 s=o.a.a.length!==0?A.dl(p,p,B.jn,p,p,new A.aq9(q),p,p,p):p
 s=A.dM(p,B.aA,!1,p,!0,B.v,p,A.dT(),o,p,p,p,p,p,2,A.d6(p,new A.bm(4,A.W(12),B.r),p,B.ce,p,p,p,p,!0,p,p,p,p,p,p,B.iQ,!0,p,p,p,p,new A.bm(4,A.W(12),B.ip),p,p,p,p,p,p,p,p,B.oh,"Search Sub-category or Mould in "+n+"...",p,p,p,p,p,p,p,p,p,!0,!0,!1,p,B.mO,p,p,p,p,p,p,s,p,p,p,p,p),B.D,!0,p,!0,p,!1,p,B.ax,p,p,p,p,p,p,p,p,1,p,p,!1,"\u2022",p,new A.aqa(q),p,p,p,!1,p,p,!1,p,!0,p,B.aF,p,p,p,p,p,p,p,p,p,p,p,p,!0,B.a4,p,B.aJ,p,p,p,p)
 o=t.p
-n=A.ad(A.ab(A.b([B.a3J,A.M("Main Press ID: "+n,p,p,p,p,B.ZZ,p,p,p)],o),B.G,p,B.i,B.f),1)
+n=A.ad(A.ab(A.b([B.a3E,A.M("Main Press ID: "+n,p,p,p,p,B.ZZ,p,p,p)],o),B.G,p,B.i,B.f),1)
 r=A.aZJ(p,p,p,p,p,p,p,p,p,B.o,p,p,B.lT,p,new A.bF(A.W(10),B.r),B.ip,p,p,p,p)
 n=A.am(p,A.by(new A.du(B.dZ,new A.aV(B.Q,A.ab(A.b([s,B.o5,A.aj(A.b([n,new A.Q4(!0,new A.aqb(q),p,p,p,r,p,p,!1,p,!0,p,new A.Y7(B.a3z,B.MD,r,p,p),p)],o),B.j,B.dI,B.f,0)],o),B.G,p,B.i,B.f),p),p),p,p),B.l,B.h,p,p,p,p,p,p,p,p,1/0)
 return A.ab(A.b([n,A.ad(A.by(new A.du(B.dZ,m.length===0?A.by(A.M('No sub-category matching "'+q.r+'"',p,p,p,p,B.DU,p,p,p),p,p):A.Pi(new A.aqc(q,m)),p),p,p),1)],o),B.j,p,B.i,B.f)},
@@ -99476,7 +99476,7 @@ RX(a){var s,r,q=null,p=A.W(16),o=A.df(B.iL,1),n=A.b([new A.bD(0,B.a_,B.t.aU(0.03
 i=A.am(q,A.by(A.M(g,q,q,q,q,B.a_l,q,q,q),q,q),B.l,q,q,new A.aw(j,q,h,i,q,q,B.u),q,48,q,q,q,q,48)
 h=a.b
 j=t.p
-s=A.ad(A.ab(A.b([A.M("Sub-Category: "+g,q,q,q,q,B.og,q,q,q),B.fw,A.M("Contains "+h.length+" Moulds",q,q,q,q,B.Zy,q,q,q)],j),B.G,q,B.i,B.f),1)
+s=A.ad(A.ab(A.b([A.M("Press: "+g,q,q,q,q,B.og,q,q,q),B.fw,A.M("Contains "+h.length+" Moulds",q,q,q,q,B.Zy,q,q,q)],j),B.G,q,B.i,B.f),1)
 r=A.c5(q,q,B.o,q,q,q,0,q,q,B.h,q,q,B.lT,q,new A.bF(A.W(10),B.r),q,q,q,q,q)
 r=A.b([new A.aV(B.Q,A.aj(A.b([i,B.Db,s,A.fn(B.Mq,A.M("Select "+g,q,q,q,q,B.DQ,q,q,q),new A.aq_(this,a),r)],j),B.j,B.i,B.f,0),q)],j)
 if(h.length!==0){i=A.a_(h).i("a9<1,h3>")
@@ -100110,7 +100110,7 @@ case 2:if(q.c!=null)q.P(new A.azZ())
 return A.q(null,r)}})
 return A.r($async$Bu,r)},
 H(a){var s=null
-return A.hN(A.iR(s,B.o,s,0,s,B.ch,B.a3H),B.h,A.er(!0,A.cv(new A.aA7(this),t.W0),B.a2,!0),s,s)},
+return A.hN(A.iR(s,B.o,s,0,s,B.ch,B.a3I),B.h,A.er(!0,A.cv(new A.aA7(this),t.W0),B.a2,!0),s,s)},
 A5(a,b,c){var s=null,r=A.W(12),q=A.b([new A.bD(1,B.a_,A.ay(B.d.aN(25.5),B.b3.v()>>>16&255,B.b3.v()>>>8&255,B.b3.v()&255),B.dK,4)],t.V),p=t.p
 return A.am(s,A.aj(A.b([A.az(c,B.o,s,24),B.fv,A.ab(A.b([A.M(a,s,s,s,s,A.ae(s,s,B.F,s,s,s,s,s,s,s,s,14,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),B.bL,A.M(b,s,s,s,s,B.om,s,s,s)],p),B.G,s,B.i,B.f)],p),B.j,B.i,B.f,0),B.l,s,s,new A.aw(B.h,s,s,r,q,s,B.u),s,s,s,B.Q,s,s,s)},
 A8(a,b){var s,r,q,p,o=null,n=A.W(12),m=A.df(b?B.q7:B.pD,1),l=A.b([new A.bD(1,B.a_,A.ay(B.d.aN(25.5),B.b3.v()>>>16&255,B.b3.v()>>>8&255,B.b3.v()&255),B.dK,4)],t.V),k=b?B.cS:B.rc
@@ -109073,8 +109073,8 @@ B.Q3=s([B.l8,B.x,B.a2O],t.p)
 B.JG=new A.lU(B.an,B.Y,B.f,B.j,null,B.bu,null,0,B.Q3,null)
 B.Hl=new A.h1(B.am,null,null,B.JG,null)
 B.oi=new A.o(!0,B.h,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a3F=new A.aQ("!",null,B.oi,null,null,null,null,null,null,null,null)
-B.Hm=new A.h1(B.am,null,null,B.a3F,null)
+B.a3G=new A.aQ("!",null,B.oi,null,null,null,null,null,null,null,null)
+B.Hm=new A.h1(B.am,null,null,B.a3G,null)
 B.Hs=new A.i8(null,null,null,null,null,null,null,null,null,null)
 B.Hn=new A.h1(B.am,null,null,B.Hs,null)
 B.bV=new A.h1(B.am,null,null,B.l8,null)
@@ -112097,13 +112097,13 @@ B.a3B=new A.aQ("Select Machine",null,B.dP,null,null,null,null,null,null,null,nul
 B.a3C=new A.aQ("Add Plan",null,B.DX,null,null,null,null,null,null,null,null)
 B.E2=new A.aQ("Clear All",null,null,null,null,null,null,null,null,null,null)
 B.a3D=new A.aQ("Items",null,null,null,null,null,null,null,null,null,null)
-B.a3E=new A.aQ("Reject",null,null,null,null,null,null,null,null,null,null)
+B.a3E=new A.aQ("Press Selection",null,B.og,null,null,null,null,null,null,null,null)
+B.a3F=new A.aQ("Reject",null,null,null,null,null,null,null,null,null,null)
 B.dt=new A.aQ("Clear Search",null,null,null,null,null,null,null,null,null,null)
-B.a3G=new A.aQ("End Date",null,null,null,null,null,null,null,null,null,null)
-B.a3H=new A.aQ("Profile",null,B.cb,null,null,null,null,null,null,null,null)
+B.a3H=new A.aQ("End Date",null,null,null,null,null,null,null,null,null,null)
+B.a3I=new A.aQ("Profile",null,B.cb,null,null,null,null,null,null,null,null)
 B.a0Y=new A.o(!0,null,null,null,null,null,15,B.aa,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a3I=new A.aQ("Production Steps",null,B.a0Y,null,null,null,null,null,null,null,null)
-B.a3J=new A.aQ("Sub-Category Selection",null,B.og,null,null,null,null,null,null,null,null)
+B.a3J=new A.aQ("Production Steps",null,B.a0Y,null,null,null,null,null,null,null,null)
 B.E3=new A.aQ("Logout",null,null,null,null,null,null,null,null,null,null)
 B.E4=new A.aQ("Go to Login",null,null,null,null,null,null,null,null,null,null)
 B.a3K=new A.aQ("Logout",null,B.DW,null,null,null,null,null,null,null,null)
